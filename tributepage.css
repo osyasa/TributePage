@@ -1,0 +1,57 @@
+body {
+  background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
+  background-repeat: repeat;
+}
+#main {
+  font-family: Roboto;
+}
+#title {
+  display: flex;
+  justify-content: center;
+}
+#img-div {
+  display: flex;
+  margin-top: 2%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+#image {
+  max-width: 40%;
+  height: auto;
+  border-radius: 3%;
+}
+#img-caption {
+  text-align: center;
+  font-style: italic;
+}
+#tribute-info {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+#link {
+  text-align: center;
+  margin-top: 2%;
+}
+#tribute-link {
+  text-decoration: none;
+  color: green;
+}
+#tribute-link:hover {
+  color: red;
+}
+#tribute-link:visited {
+  color: purple;
+}
+#basadon {
+  background: gray;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20%;
+  padding: 0.3%;
+}
+#blockquote {
+  text-align: center;
+}
